@@ -1,0 +1,10 @@
+ubind @poly
+ulocate building core true @copper x y f building
+jump 4 equal f 0
+jump 7 always 0 0
+ulocate building repair true @copper x y f building
+ulocate building factory true @copper x y f building
+ulocate building factory true @copper x y f building
+jump 9 equal f 0
+jump 10 always 0 0
+ulocate building factory true @copper x y f building

@@ -1,0 +1,10 @@
+ubind(@poly)
+ulocate(building, core, true, @copper, x, y, f, building)
+|if(f == 0){
+ulocate(building, repair, true, @copper, x, y, f, building)
+ulocate(building, factory, true, @copper, x, y, f, building)
+ulocate(building, factory, true, @copper, x, y, f, building)
+}
+|if(f == 0){
+ulocate(building, factory, true, @copper, x, y, f, building)
+}
